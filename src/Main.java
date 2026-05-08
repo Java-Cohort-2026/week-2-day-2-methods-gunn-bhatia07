@@ -20,10 +20,15 @@ public class Main {
     // TODO: Create a method named 'celsiusToFahrenheit'
     // It should take a double parameter, and return a double.
     // Formula: (C * 9/5) + 32
-    
+    public static double celsiusToFahrenheit(double celsius) {
+        return (celsius * 9 / 5) + 32;
+    }
     
     // TODO: Create a method named 'fahrenheitToCelsius'
     // It should take a double parameter, and return a double.
     // Formula: (F - 32) * 5/9
+    public static double fahrenheitToCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5 / 9;
+    }
 
 }
